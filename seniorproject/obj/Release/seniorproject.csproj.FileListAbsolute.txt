@@ -1,0 +1,13 @@
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.csproj.AssemblyReference.cache
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\bin\Release\seniorproject.exe.config
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\bin\Release\seniorproject.exe
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\bin\Release\seniorproject.pdb
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.Add.resources
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.Edit.resources
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.InvManagement.resources
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.Properties.Resources.resources
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.Restock.resources
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.csproj.GenerateResource.cache
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.csproj.CoreCompileInputs.cache
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.exe
+C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Release\seniorproject.pdb
