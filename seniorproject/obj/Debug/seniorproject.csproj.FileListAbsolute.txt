@@ -11,16 +11,3 @@ C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\D
 C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Debug\seniorproject.InvManagement.resources
 C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Debug\seniorproject.Edit.resources
 C:\Users\Crazy\Documents\School Work\ISDS 454 Senior Project\seniorproject\obj\Debug\seniorproject.Restock.resources
-D:\seniorproject\bin\Debug\seniorproject.exe.config
-D:\seniorproject\bin\Debug\seniorproject.exe
-D:\seniorproject\bin\Debug\seniorproject.pdb
-D:\seniorproject\obj\Debug\seniorproject.csproj.AssemblyReference.cache
-D:\seniorproject\obj\Debug\seniorproject.Add.resources
-D:\seniorproject\obj\Debug\seniorproject.Edit.resources
-D:\seniorproject\obj\Debug\seniorproject.InvManagement.resources
-D:\seniorproject\obj\Debug\seniorproject.Properties.Resources.resources
-D:\seniorproject\obj\Debug\seniorproject.Restock.resources
-D:\seniorproject\obj\Debug\seniorproject.csproj.GenerateResource.cache
-D:\seniorproject\obj\Debug\seniorproject.csproj.CoreCompileInputs.cache
-D:\seniorproject\obj\Debug\seniorproject.exe
-D:\seniorproject\obj\Debug\seniorproject.pdb

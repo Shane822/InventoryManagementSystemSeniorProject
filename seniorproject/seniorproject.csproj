@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -51,6 +52,29 @@
     </Compile>
     <Compile Include="Edit.Designer.cs">
       <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvManagementSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvManagementSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InvManagementSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvManagementSystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InvManagementSystemDataSet2.cs">
+      <DependentUpon>InvManagementSystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InvManagementSystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvManagementSystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProdCatInv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProdCatInv.xsd</DependentUpon>
     </Compile>
     <Compile Include="Restock.cs">
       <SubType>Form</SubType>
@@ -93,6 +117,50 @@
     <EmbeddedResource Include="Restock.resx">
       <DependentUpon>Restock.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="InvManagementSystemDataSet.xsc">
+      <DependentUpon>InvManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InvManagementSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvManagementSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InvManagementSystemDataSet.xss">
+      <DependentUpon>InvManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InvManagementSystemDataSet1.xsc">
+      <DependentUpon>InvManagementSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="InvManagementSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvManagementSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InvManagementSystemDataSet1.xss">
+      <DependentUpon>InvManagementSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="InvManagementSystemDataSet2.xsc">
+      <DependentUpon>InvManagementSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="InvManagementSystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvManagementSystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InvManagementSystemDataSet2.xss">
+      <DependentUpon>InvManagementSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProdCatInv.xsc">
+      <DependentUpon>ProdCatInv.xsd</DependentUpon>
+    </None>
+    <None Include="ProdCatInv.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProdCatInv.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProdCatInv.xss">
+      <DependentUpon>ProdCatInv.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
