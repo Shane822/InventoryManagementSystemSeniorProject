@@ -192,6 +192,7 @@
             this.Controls.Add(this.nameBox);
             this.Name = "Add";
             this.Text = "Add Item";
+            this.Load += new System.EventHandler(this.Add_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

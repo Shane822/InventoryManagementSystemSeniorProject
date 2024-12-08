@@ -14,13 +14,14 @@ namespace seniorproject
 {
     public partial class Add : Form
     {
-        public Add()
+        private readonly InvManagement activeForm;
+        public Add(InvManagement imgmt)
         {
             InitializeComponent();
+
+            activeForm = imgmt;
         }
 
-        // *****NEED TO CHANGE DATA SOURCE TO THE LOCAL SERVER WHICH YOU ARE PULLING DATA, ALSO MAKE SURE THE INITIAL CATALOG MATCHES THE DATABASE ON THE LOCAL SERVER*****
-        private const string connString = "Data Source=DESKTOP-OSSQ7FV;Initial Catalog=InvManagementSystem;Integrated Security=True;";
         private void nameBox_TextChanged(object sender, EventArgs e)
         {
 
@@ -63,7 +64,7 @@ namespace seniorproject
 
             try
             {
-                using (SqlConnection connection = new SqlConnection(connString))
+                using (SqlConnection connection = new SqlConnection(InvManagement.connectionString))
                 {
                     connection.Open();
 
@@ -139,7 +140,13 @@ namespace seniorproject
         private void button1_Click(object sender, EventArgs e)
         {
             btnSave_Click(sender, e);
-            MessageBox.Show("Successfully Saved to Database.");
+            activeForm.refreshDGV();
+            this.Close();
+        }
+
+        private void Add_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
